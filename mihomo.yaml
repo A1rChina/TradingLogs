@@ -1,8 +1,26 @@
 proxies:
-  - name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 2.2MB/s"
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 4.2MB/s"
+    network: ws
+    port: 443
+    server: 94.131.9.5
+    tls: true
+    type: vless
+    udp: true
+    uuid: 30948f96-605e-4396-8d95-e1b903f1fd28
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
+      path: /websocket
+    xudp: true
+    servername: eu1.abvpn.ru
+  - name: "\U0001F1E6\U0001F1FA澳大利亚1 | ⬇️ 3.9MB/s"
     network: ws
     port: 80
-    server: 45.131.4.151
+    server: 45.131.5.182
     type: vless
     udp: true
     uuid: c5293efa-28f8-4a0f-8f34-541078970cee
@@ -10,32 +28,430 @@ proxies:
       headers:
         Host: gozargah.validbv7996.ir
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/32.0.1700.107 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
     xudp: true
-  - name: "\U0001F1EB\U0001F1F7法国1 | ⬇️ 4.9MB/s"
-    network: ws
-    port: 8080
-    server: 104.26.14.85
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 10.4MB/s"
+    port: 48121
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: beiyong.dynuddns.net
+    skip-cert-verify: true
+    tls: true
     type: vless
     udp: true
-    uuid: 8a70d36b-dfb9-40cf-802e-70a82bc80ae2
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+  - client-fingerprint: qq
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F0\U0001F1F7韩国1 | ⬇️ 3.6MB/s"
+    network: tcp
+    port: 30001
+    reality-opts:
+      public-key: DyRHSP0NYimjT2GuBQ1qyIIYvSHvR1X9ufQjUBVw9yQ
+      short-id: ''
+    server: 13.209.11.26
+    tls: true
+    type: vless
+    udp: true
+    uuid: f37384b3-ed03-4205-8a8f-c6b639fb335f
+    xudp: true
+    servername: s0.awsstatic.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1荷兰2 | ⬇️ 1.4MB/s"
+    port: 50997
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: agaungzhou01.bumbleshrimp.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.amazon.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 2.4MB/s"
+    port: 35853
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: zhee01.dynu.net
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 1.9MB/s"
+    network: ws
+    port: 8443
+    server: 188.114.96.3
+    tls: true
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
     ws-opts:
       headers:
-        Host: JP.8HVL7WyiPt.zuLaIR.oRg.
+        Host: gozargah.validbv7996.ir
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: /?ed=2048
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /Telegram@V2ray_Alpha/?ed=2560
     xudp: true
-    servername: JP.8HVL7WyiPt.zuLaIR.oRg.
-  - name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 3.4MB/s"
+    servername: GOzaRGAh.vALidBv7996.Ir
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F300其他1-EG | ⬇️ 4.9MB/s"
+    port: 29316
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: agaungzhou01.bumbleshrimp.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.amazon.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7韩国2 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 443
+    server: 104.21.17.92
+    tls: true
+    type: vless
+    udp: true
+    uuid: 16d7a04d-e6f4-479f-8914-80d3817317f9
+    ws-opts:
+      headers:
+        Host: ed19-dc7.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
+      path: /azarbayjab1.tab.net?ed=2560
+    xudp: true
+    servername: ed19-dc7.pages.dev
+  - name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.113
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 1.6MB/s"
+    network: ws
+    port: 443
+    server: 104.25.140.153
+    tls: true
+    type: vless
+    udp: true
+    uuid: f9f52055-ff98-4f3c-baa4-869864503e1e
+    ws-opts:
+      headers:
+        Host: BPB-pANEL-En-1O0.pAges.DEV
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /
+    xudp: true
+    servername: BPB-pANEL-En-1O0.pAges.DEV
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: firefox
+    name: "\U0001F1EE\U0001F1F3印度1 | ⬇️ 7.5MB/s"
+    network: ws
+    port: 443
+    server: 157.20.172.163
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 533e2499-00a2-40ef-b2b2-5f219248c258
+    ws-opts:
+      headers:
+        Host: ByAmirFBI-h2e.salehpersian.com
+      path: >-
+        /Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telegram-Amiir_FBIger-twix?ed=2560
+    servername: h2e.salehpersian.com
+  - name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 2.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.179
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - name: "\U0001F1E6\U0001F1FA澳大利亚2 | ⬇️ 3.9MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.214
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA德国2 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 443
+    server: 188.114.97.3
+    tls: true
+    type: vless
+    udp: true
+    uuid: b2211bd9-5eba-4141-b80d-a6c335b2e751
+    ws-opts:
+      headers:
+        Host: besttivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /vbC63aEz3mLGeBJJ?ed=2560
+    xudp: true
+    servername: BesTTIVPN.paGeS.Dev
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F300其他2-RO | ⬇️ 7.0MB/s"
+    port: 65053
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: beiyong.dynuddns.net
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.amazon.com
+  - client-fingerprint: chrome
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 6.4MB/s"
+    network: tcp
+    port: 443
+    server: 51.81.36.243
+    tls: true
+    type: vless
+    udp: true
+    uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+    xudp: true
+    servername: 147135001178.sec22org.com
+  - cipher: aes-256-cfb
+    country: "\U0001F1FA\U0001F1F8US"
+    delay: 1414
+    name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 1.8MB/s"
+    password: amazonskr05
+    port: 443
+    server: 47.129.202.70
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 2.5MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.188
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 443
+    server: 104.16.38.176
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    ws-opts:
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+    servername: kawaiifreevpn-7ds.pages.dev
+  - name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 3.2MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.187
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: /
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 3.1MB/s"
+    network: ws
+    port: 80
+    server: 170.114.45.6
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+    ws-opts:
+      headers:
+        Host: free.pranithsandaruwan.shop
+      path: /
+    servername: free.pranithsandaruwan.shop
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA德国3 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 443
+    server: besttivpn.pages.dev
+    tls: true
+    type: vless
+    udp: true
+    uuid: b2211bd9-5eba-4141-b80d-a6c335b2e751
+    ws-opts:
+      headers:
+        Host: besttivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      path: /g3fpXHnYa6VAnTBL?ed=2560
+    xudp: true
+    servername: bESttIvPN.paGEs.Dev
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 1.4MB/s"
+    network: ws
+    port: 443
+    server: 104.19.242.104
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    ws-opts:
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/32.0.1700.107 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+    servername: kawaiifreevpn-7ds.pages.dev
+  - name: "\U0001F1FA\U0001F1F8美国7 | ⬇️ 1.4MB/s"
     network: ws
     port: 80
     server: 45.131.5.145
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: gozargah.validbv7996.ir
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5日本3 | ⬇️ 7.1MB/s"
+    password: amazonskr05
+    port: 443
+    server: 54.199.103.26
+    type: ss
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA德国4 | ⬇️ 3.1MB/s"
+    network: ws
+    port: 443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: b2211bd9-5eba-4141-b80d-a6c335b2e751
+    ws-opts:
+      headers:
+        Host: besttivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: /R1CRpCqPIFFrJz4u?ed=2560
+    xudp: true
+    servername: bEsTtIVpn.PagES.DEV
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 11.2MB/s"
+    port: 33782
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: shenzhou05.mysynology.net
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F300其他3-SE | ⬇️ 2.7MB/s"
+    network: ws
+    port: 443
+    server: www.speedtest.net
+    tls: true
     type: vless
     udp: true
     uuid: c5293efa-28f8-4a0f-8f34-541078970cee
@@ -43,12 +459,299 @@ proxies:
       headers:
         Host: gozargah.validbv7996.ir
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-          Gecko) Chrome/26.0.1410.64 Safari/537.31
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/39.0.2171.95 Safari/537.36
+      path: /PQbo6kwamNEbtFNK?ed=2560
+    xudp: true
+    servername: GOzaRGAH.VaLIDbV7996.Ir
+  - name: "\U0001F1EE\U0001F1F3印度2 | ⬇️ 3.2MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.131
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8美国8 | ⬇️ 1.5MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.35
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1E6\U0001F1EA阿拉伯酋长国1 | ⬇️ 3.0MB/s"
+    network: ws
+    port: 80
+    server: 188.114.97.3
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /SIGrNRCU4ongDlz4
+    xudp: true
+    servername: goZARGah.validBv7996.ir
+  - alterId: 0
+    cipher: auto
+    delay: 2315
+    name: "\U0001F1FA\U0001F1F8美国9 | ⬇️ 6.0MB/s"
+    network: ws
+    port: 80
+    server: 104.21.21.226
+    tls: false
+    type: vmess
+    uuid: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+    ws-opts:
+      headers:
+        Host: 1c.890689.xyz
+      path: /lsUVr8VBxF4ylXngZ
+  - client-fingerprint: chrome
+    name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 2.1MB/s"
+    network: ws
+    port: 2083
+    server: 27.50.49.231
+    tls: true
+    type: vless
+    udp: true
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    ws-opts:
+      headers:
+        Host: edccq.aimercc.filegear-sg.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: /?ed=2560security=tlsflow=-udp443
+    xudp: true
+    servername: edccq.aimercc.filegear-sg.me
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 1.1MB/s"
+    port: 31800
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: agaungzhou01.bumbleshrimp.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+  - name: "\U0001F1E7\U0001F1F7巴西1 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 8080
+    server: 45.131.4.33
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: /
+    servername: gozargah.validbv7996.ir
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7英国1 | ⬇️ 3.9MB/s"
+    network: ws
+    port: 2096
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+    ws-opts:
+      headers:
+        Host: FuIjBvQa.rIcKtMoUsE.InFo
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /
+    xudp: true
+    servername: FuIjBvQa.rIcKtMoUsE.InFo
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8美国10 | ⬇️ 6.2MB/s"
+    port: 40430
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: shenzhou02.mysynology.net
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.yahoo.com
+  - name: "\U0001F1E7\U0001F1F7巴西2 | ⬇️ 1.5MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.206
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
     xudp: true
     servername: gozargah.validbv7996.ir
-  - name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 4.7MB/s"
+  - name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 4.8MB/s"
+    network: ws
+    port: 80
+    server: 170.114.45.6
+    type: vless
+    udp: true
+    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+    ws-opts:
+      headers:
+        Host: free.pranithsandaruwan.shop
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.pranithsandaruwan.shop
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1E9\U0001F1EA德国5 | ⬇️ 1.7MB/s"
+    network: ws
+    port: 443
+    server: 172.66.47.49
+    tls: true
+    type: vless
+    udp: true
+    uuid: b2211bd9-5eba-4141-b80d-a6c335b2e751
+    ws-opts:
+      headers:
+        Host: besttivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /g3fpXHnYa6VAnTBL?ed=2560
+    xudp: true
+    servername: bESttIvPN.paGEs.Dev
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5日本4 | ⬇️ 3.0MB/s"
+    port: 35659
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: shenzhou02.mysynology.net
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: gateway.icloud.com
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1荷兰3 | ⬇️ 5.9MB/s"
+    network: ws
+    port: 8443
+    server: 104.17.148.22
+    tls: true
+    type: vless
+    udp: true
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+    ws-opts:
+      headers:
+        Host: CoKrChAs3.RoCkStOnEy.iNfO
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: /
+    xudp: true
+    servername: CoKrChAs3.RoCkStOnEy.iNfO
+  - client-fingerprint: chrome
+    delay: 2023
+    flow: xtls-rprx-vision
+    name: "\U0001F1E6\U0001F1EA阿拉伯酋长国2 | ⬇️ 1.6MB/s"
+    network: tcp
+    port: 22734
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: bsuqian01.dynu.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.amazon.com
+  - country: "\U0001F1F5\U0001F1F1PL"
+    delay: 1316
+    name: "\U0001F1F5\U0001F1F1波兰1 | ⬇️ 4.4MB/s"
+    password: be758973-186d-46fe-8aa4-e017134fa291
+    port: 4029
+    server: 31.186.87.211
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8美国11 | ⬇️ 3.9MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.35
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1E9\U0001F1EA德国6 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 446a2b30-b893-4ef6-89c1-55666b6ba7a0
+    ws-opts:
+      headers:
+        Host: bestttivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/46.0.2490.71 Safari/537.36
+      path: /RECAZCrtYfT7ozMG?ed=2560
+    xudp: true
+    servername: bEstTtiVPN.pageS.deV
+  - name: "\U0001F1FA\U0001F1F8美国12 | ⬇️ 2.9MB/s"
     network: ws
     port: 80
     server: 45.131.4.126
@@ -62,58 +765,66 @@ proxies:
         Host: gozargah.validbv7996.ir
       path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
     servername: gozargah.validbv7996.ir
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EC\U0001F1E7英国1 | ⬇️ 1.3MB/s"
-    password: Qx22XZwNt4SCcnWNkypEAj
-    port: 44316
-    server: 81.19.137.66
-    type: ss
+  - name: "\U0001F1E9\U0001F1EA德国7 | ⬇️ 4.7MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.248
+    type: vless
     udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /flow
+    xudp: true
+    servername: gozargah.validbv7996.ir
   - client-fingerprint: chrome
-    delay: 1260
     flow: xtls-rprx-vision
-    name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 5.1MB/s"
-    network: tcp
-    port: 37809
+    name: "\U0001F1ED\U0001F1F0香港5 | ⬇️ 2.0MB/s"
+    port: 46716
     reality-opts:
       public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    server: shenzhou05.mysynology.net
+    server: agaungzhou01.bumbleshrimp.com
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
     uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-    servername: www.yahoo.com
-  - name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 1.2MB/s"
-    network: ws
-    port: 80
-    server: 45.131.4.192
+    network: tcp
+    servername: www.nvidia.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F300其他4-SA | ⬇️ 1.0MB/s"
+    port: 60677
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: agaungzhou01.bumbleshrimp.com
+    skip-cert-verify: false
+    tls: true
     type: vless
     udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-    xudp: true
-  - name: "\U0001F300其他1-SE | ⬇️ 2.2MB/s"
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+  - name: "\U0001F1FA\U0001F1F8美国13 | ⬇️ 1.1MB/s"
     network: ws
     port: 80
-    server: 45.131.4.200
+    server: 104.16.173.114
     type: vless
     udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    uuid: faa47bdc-8581-4e47-a557-35caa72681bd
     ws-opts:
       headers:
-        Host: gozargah.validbv7996.ir
+        Host: delicate-feather-dc36-ppal03.shah-beck.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed"
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /?ed=2560
     xudp: true
-  - name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 1.3MB/s"
+  - name: "\U0001F1FA\U0001F1F8美国14 | ⬇️ 5.5MB/s"
     network: ws
     port: 80
     server: 45.131.4.33
@@ -125,57 +836,36 @@ proxies:
         Host: gozargah.validbv7996.ir
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /
     xudp: true
     servername: gozargah.validbv7996.ir
   - alpn:
+      - h2
       - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F300其他2-SE | ⬇️ 3.7MB/s"
+    client-fingerprint: randomized
+    name: "\U0001F1EE\U0001F1F3印度3 | ⬇️ 1.1MB/s"
     network: ws
     port: 443
-    server: 104.21.56.44
+    server: 172.66.47.138
     tls: true
     type: vless
     udp: true
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    uuid: 236a00ab-f5c0-4dcf-a453-d795c1fd7e1e
     ws-opts:
       headers:
-        Host: redfree8.pooriashop.ir
+        Host: bestiiiiiiiiiivpn.pages.dev
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
           AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
           Safari/537.36
-      path: >-
-        /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+      path: /IY7FCfbF2EKd02lx?ed=2560
     xudp: true
-    servername: redfree8.pooriashop.ir
-  - name: "\U0001F1E7\U0001F1F7巴西1 | ⬇️ 1.8MB/s"
+    servername: bEStIiiIIiIIIivPN.pAges.dEV
+  - name: "\U0001F1F8\U0001F1EC新加坡4 | ⬇️ 4.4MB/s"
     network: ws
     port: 80
-    server: 45.131.4.113
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: gozargah.validbv7996.ir
-  - cipher: rc4-md5
-    name: "\U0001F1E9\U0001F1EA德国2 | ⬇️ 2.8MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 193.108.119.230
-    type: ss
-    udp: true
-  - name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 3.9MB/s"
-    network: ws
-    port: 80
-    server: 170.114.46.6
+    server: support.zoom.us
     skip-cert-verify: false
     tls: false
     type: vless
@@ -186,10 +876,10 @@ proxies:
         Host: free.pranithsandaruwan.shop
       path: /
     servername: free.pranithsandaruwan.shop
-  - name: "\U0001F1E9\U0001F1EA德国3 | ⬇️ 2.7MB/s"
+  - name: "\U0001F1FA\U0001F1F8美国15 | ⬇️ 1.2MB/s"
     network: ws
     port: 80
-    server: 45.131.4.214
+    server: 45.131.4.126
     type: vless
     udp: true
     uuid: c5293efa-28f8-4a0f-8f34-541078970cee
@@ -198,11 +888,146 @@ proxies:
         Host: gozargah.validbv7996.ir
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+          like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
     xudp: true
     servername: gozargah.validbv7996.ir
-  - name: "\U0001F1EF\U0001F1F5日本3 | ⬇️ 1.8MB/s"
+  - name: "\U0001F1EE\U0001F1F3印度4 | ⬇️ 4.4MB/s"
+    network: ws
+    port: 80
+    server: 188.114.97.3
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.81 Safari/537.36
+      path: /SIGrNRCU4ongDlz4?ed=2560
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1F9\U0001F1FC台湾2 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 2082
+    server: 172.67.52.41
+    type: vless
+    udp: true
+    uuid: 2737560d-1867-47fa-aa80-351c36d771c7
+    ws-opts:
+      headers:
+        Host: 0118.kznyoum2.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.94 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+  - name: "\U0001F1E6\U0001F1FA澳大利亚3 | ⬇️ 3.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.99
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1FA\U0001F1F8美国16 | ⬇️ 1.9MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.113
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    delay: 2511
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8美国17 | ⬇️ 3.0MB/s"
+    network: ws
+    port: 8080
+    server: s4.cn-db.top
+    type: vmess
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    ws-opts:
+      headers:
+        Host: 100-150-171-114.s4.cn-db.top
+      path: /dabai.in104.20.244.251
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision-udp443-udp443
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E8\U0001F1ED瑞士1 | ⬇️ 3.6MB/s"
+    network: tcp
+    port: 443
+    server: 152.67.68.116
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
+    xudp: true
+    servername: YAPC-1.afshin.ir
+  - name: "\U0001F1F8\U0001F1EC新加坡5 | ⬇️ 2.2MB/s"
+    network: ws
+    port: 80
+    server: support.zoom.us
+    type: vless
+    udp: true
+    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+    ws-opts:
+      headers:
+        Host: free.pranithsandaruwan.shop
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.75 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.pranithsandaruwan.shop
+  - name: "\U0001F1FA\U0001F1F8美国18 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.254
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    servername: gozargah.validbv7996.ir
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0香港6 | ⬇️ 3.2MB/s"
+    port: 45883
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: gysz0000.dynu.net
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+  - name: "\U0001F1FA\U0001F1F8美国19 | ⬇️ 4.3MB/s"
     network: ws
     port: 80
     server: 45.131.5.206
@@ -217,10 +1042,10 @@ proxies:
           like Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
     xudp: true
-  - name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 1.4MB/s"
+  - name: "\U0001F1ED\U0001F1F0香港7 | ⬇️ 7.1MB/s"
     network: ws
     port: 80
-    server: 45.131.4.126
+    server: 45.131.4.73
     type: vless
     udp: true
     uuid: c5293efa-28f8-4a0f-8f34-541078970cee
@@ -228,628 +1053,41 @@ proxies:
       headers:
         Host: gozargah.validbv7996.ir
         User-Agent: >-
-          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    xudp: true
-    servername: gozargah.validbv7996.ir
-  - name: "\U0001F1E9\U0001F1EA德国4 | ⬇️ 1.1MB/s"
-    network: ws
-    port: 80
-    server: Zmaoz.Faculty.Ucdavis.Edu
-    type: vless
-    udp: true
-    uuid: Parsashonam-207
-    ws-opts:
-      headers:
-        Host: Parsashonam-DE.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.106 Safari/537.36
-      path: /@Parsashonam?ed=2048
-    xudp: true
-    servername: Zmaoz.Faculty.Ucdavis.Edu.
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: firefox
-    name: "\U0001F1EE\U0001F1F3印度1 | ⬇️ 4.0MB/s"
-    network: ws
-    port: 443
-    server: 157.20.172.163
-    tls: true
-    type: vless
-    udp: true
-    uuid: c6a8855e-7738-414a-91aa-67c99003ec3e
-    ws-opts:
-      headers:
-        Host: ByAmirFBI-h2e.salehpersian.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: >-
-        /Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telegram-Amiir_FBIger-twix?ed=2560
-    xudp: true
-    servername: h2e.salehpersian.com
-  - name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 1.1MB/s"
-    network: ws
-    port: 80
-    server: 45.131.4.188
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/39.0.2171.95 Safari/537.36
-      path: /
-    xudp: true
-    servername: gozargah.validbv7996.ir
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1EA阿拉伯酋长国1 | ⬇️ 1.4MB/s"
-    port: 22734
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    server: bsuqian01.dynu.net
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-    network: tcp
-    servername: www.amazon.com
-  - name: "\U0001F1EB\U0001F1F7法国2 | ⬇️ 3.6MB/s"
-    network: ws
-    port: 8080
-    server: 104.26.14.85
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 8a70d36b-dfb9-40cf-802e-70a82bc80ae2
-    ws-opts:
-      headers:
-        Host: JP.8HVL7WyiPt.zuLaIR.oRg.
-      path: /?ed=2048
-    servername: JP.8HVL7WyiPt.zuLaIR.oRg.
-  - name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 2.6MB/s"
-    network: ws
-    port: 80
-    server: 45.131.5.151
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: gozargah.validbv7996.ir
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: none
-    name: "\U0001F1F5\U0001F1F1波兰1 | ⬇️ 2.5MB/s"
-    network: ws
-    port: 42800
-    server: 188.68.234.53
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d36c4d9f-31c4-45f1-8c64-102a6142001e
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers: {}
-      max-early-data: 2048
-      path: /vmess
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2?ed=2560
     xudp: true
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 4.5MB/s"
-    network: ws
+    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1E8\U0001F1ED瑞士2 | ⬇️ 1.2MB/s"
     port: 443
-    server: 23.227.38.0
-    tls: true
-    type: vless
-    udp: true
-    uuid: b2b7f2fd-58af-46c3-aa31-b00a32e3c781
-    ws-opts:
-      headers:
-        Host: us1_pq_user_vip_api.xn--ghqu5fm27b67w.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /pq/us1
-    xudp: true
-    servername: us1_pq_user_vip_api.xn--ghqu5fm27b67w.com
-  - name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 2.0MB/s"
-    network: ws
-    port: 80
-    server: 170.114.45.6
-    type: vless
-    udp: true
-    uuid: f95543de-d6c7-474e-a58e-c9891833f45b
-    ws-opts:
-      headers:
-        Host: free.server.pranithsandaruwan.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1EB\U0001F1EE芬兰1 | ⬇️ 2.6MB/s"
-    network: ws
-    port: 80
-    server: 45.131.4.194
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-    xudp: true
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EA德国5 | ⬇️ 2.5MB/s"
-    network: tcp
-    port: 2052
-    server: 94.159.96.160
-    type: vless
-    udp: true
-    uuid: 52171f0d-7b05-4494-aebf-d56de3475661
-    xudp: true
-  - delay: 2023
-    name: "\U0001F1EF\U0001F1F5日本4 | ⬇️ 1.0MB/s"
-    password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-    port: 20007
-    server: 7.9n3pqn1406.xyz
+    server: yapc-1.afshin.ir
     skip-cert-verify: true
-    sni: 7.9n3pqn1406.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
+    network: tcp
+    servername: YAPC-1.afshin.ir
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国20 | ⬇️ 1.1MB/s"
+    network: ws
+    password: 6040a753-e35b-4384-8713-96f3c639b621
+    port: 443
+    server: 172.67.204.22
+    skip-cert-verify: false
+    sni: kju84.890602.XYZ
     type: trojan
     udp: true
-  - name: "\U0001F1FA\U0001F1F8美国7 | ⬇️ 2.7MB/s"
-    network: ws
-    port: 80
-    server: 45.131.5.182
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
     ws-opts:
       headers:
-        Host: gozargah.validbv7996.ir
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: gozargah.validbv7996.ir
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F300其他3-未识别 | ⬇️ 4.9MB/s"
-    network: tcp
-    port: 36001
-    server: v2-hk2-zf2.netcar.live
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F300其他4-VN | ⬇️ 4.4MB/s"
-    network: ws
-    port: 25285
-    server: cu.awslcn.info
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-    ws-opts:
-      headers:
-        Host: cu.awslcn.info
-      path: /
-    xudp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8美国8 | ⬇️ 3.8MB/s"
-    password: amazonskr05
-    port: 443
-    server: 52.88.180.184
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    delay: 1335
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 1.8MB/s"
-    network: tcp
-    port: 56127
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    server: agaungzhou01.bumbleshrimp.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-    servername: www.yahoo.com
-  - cipher: aes-256-cfb
-    delay: 976
-    name: "\U0001F1FA\U0001F1F8美国9 | ⬇️ 3.5MB/s"
-    password: amazonskr05
-    port: 443
-    server: 54.218.67.209
-    type: ss
-  - name: "\U0001F1EF\U0001F1F5日本5 | ⬇️ 1.9MB/s"
-    network: ws
-    port: 80
-    server: 172.64.152.226
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/36.0.1985.143 Safari/537.36
-      path: /Telegram@JOKERRVPNJoin_Bade_Channel@JOKERRVPN/?ed=2550
-    xudp: true
-  - name: "\U0001F1F8\U0001F1EC新加坡4 | ⬇️ 2.9MB/s"
-    network: ws
-    port: 80
-    server: 170.114.46.6
-    type: vless
-    udp: true
-    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
-    ws-opts:
-      headers:
-        Host: free.pranithsandaruwan.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1EF\U0001F1F5日本6 | ⬇️ 1.2MB/s"
-    network: ws
-    port: 80
-    server: 45.131.4.113
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    xudp: true
-    servername: gozargah.validbv7996.ir
-  - name: "\U0001F1F8\U0001F1EC新加坡5 | ⬇️ 3.0MB/s"
-    network: ws
-    port: 80
-    server: support.zoom.us
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
-    ws-opts:
-      headers:
-        Host: free.pranithsandaruwan.shop
-      path: /
-    servername: free.pranithsandaruwan.shop
-  - name: "\U0001F1FA\U0001F1F8美国10 | ⬇️ 2.6MB/s"
-    network: ws
-    port: 80
-    server: 45.131.4.116
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    xudp: true
-  - name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 1.3MB/s"
-    network: ws
-    port: 80
-    server: 45.131.5.206
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: gozargah.validbv7996.ir
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EC新加坡6 | ⬇️ 1.1MB/s"
-    port: 44003
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    server: csuzhou01.1cooldns.com
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-    network: tcp
-    servername: www.nvidia.com
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 1.6MB/s"
-    network: tcp
-    port: 49404
-    reality-opts:
-      public-key: IALYvlRfZixf3EWNWgwhw9Fj2oZ_MtbBcjG78ceqblA
-      short-id: '45'
-    server: VCPOINT.mispd.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: bbb4d5cf-5ff3-46f7-bc21-deaad2f6ab46
-    xudp: true
-    servername: tgju.org
-  - name: "\U0001F1E7\U0001F1F7巴西2 | ⬇️ 2.3MB/s"
-    network: ws
-    port: 80
-    server: 45.131.5.145
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.106 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    xudp: true
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7英国2 | ⬇️ 1.2MB/s"
-    network: ws
-    port: 2096
-    server: 104.16.143.237
-    tls: true
-    type: vless
-    udp: true
-    uuid: 09ae3454-cf42-44e6-a81e-de00e5457af9
-    ws-opts:
-      headers:
-        Host: Free.moqaab.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: >-
-        /Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram
-    xudp: true
-    servername: Free.moqaab.ir
-  - name: "\U0001F1E7\U0001F1F7巴西3 | ⬇️ 1.5MB/s"
-    network: ws
-    port: 80
-    server: 45.131.5.145
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: gozargah.validbv7996.ir
-  - name: "\U0001F1F0\U0001F1F7韩国1 | ⬇️ 2.1MB/s"
-    network: ws
-    port: 80
-    server: 45.131.4.113
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-    xudp: true
-  - name: "\U0001F1F8\U0001F1EC新加坡7 | ⬇️ 1.7MB/s"
-    network: ws
-    port: 80
-    server: 170.114.46.6
-    type: vless
-    udp: true
-    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
-    ws-opts:
-      headers:
-        Host: free.pranithsandaruwan.shop
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    servername: free.pranithsandaruwan.shop
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA德国6 | ⬇️ 2.9MB/s"
-    network: ws
-    port: 443
-    server: 173.245.58.100
-    tls: true
-    type: vless
-    udp: true
-    uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
-    ws-opts:
-      headers:
-        Host: cr7.medicaldream.ir
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /@JOKERRVPNJoin_Bade_Channel@JOKERRVPN?ed=2550
-    xudp: true
-    servername: cr7.medicaldream.ir
-  - name: "\U0001F1F8\U0001F1EC新加坡8 | ⬇️ 1.6MB/s"
-    network: ws
-    port: 80
-    server: support.zoom.us
-    type: vless
-    udp: true
-    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
-    ws-opts:
-      headers:
-        Host: free.pranithsandaruwan.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /
-    xudp: true
-    servername: free.pranithsandaruwan.shop
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EC\U0001F1E7英国3 | ⬇️ 1.5MB/s"
-    network: ws
-    port: 25240
-    server: cm.awslcn.info
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-    ws-opts:
-      headers:
-        Host: cm.awslcn.info
-      path: /
-    xudp: true
-  - name: "\U0001F1E6\U0001F1FA澳大利亚1 | ⬇️ 3.0MB/s"
-    network: ws
-    port: 80
-    server: 45.131.4.126
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed"
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F300其他5-VN | ⬇️ 2.5MB/s"
-    network: ws
-    port: 25285
-    server: cu.awslcn.info
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-    ws-opts:
-      headers:
-        Host: cu.awslcn.info
-      path: /
-    xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8美国11 | ⬇️ 1.6MB/s"
-    network: tcp
-    port: 443
-    server: 135.148.177.196
-    tls: true
-    type: vless
-    udp: true
-    uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-    xudp: true
-    servername: 147135001178.sec22org.com
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8美国12 | ⬇️ 1.2MB/s"
-    network: tcp
-    port: 443
-    server: 135.148.14.7
-    tls: true
-    type: vless
-    udp: true
-    uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-    xudp: true
-    servername: 147135001178.sec22org.com
-  - name: "\U0001F1EB\U0001F1F7法国3 | ⬇️ 3.8MB/s"
-    network: ws
-    port: 80
-    server: 94.247.142.1
-    type: vless
-    udp: true
-    uuid: bcad1dbf-6ab3-4516-b51c-37213737c2e4
-    ws-opts:
-      headers:
-        Host: APPinfo.EiNETWORK.NEWS
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: >-
-        /Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram
-    xudp: true
-  - name: "\U0001F1FA\U0001F1F8美国13 | ⬇️ 2.9MB/s"
-    network: ws
-    port: 80
-    server: 45.131.4.188
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-      path: /
-    servername: gozargah.validbv7996.ir
-  - name: "\U0001F1EC\U0001F1E7英国4 | ⬇️ 2.5MB/s"
-    network: ws
-    port: 80
-    server: 45.131.5.151
-    type: vless
-    udp: true
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-        Host: gozargah.validbv7996.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.110 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    xudp: true
-    servername: gozargah.validbv7996.ir
-  - name: "\U0001F1EC\U0001F1E7英国5 | ⬇️ 1.1MB/s"
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: /WxWOWO1YA9bs2HOmaeWimvT3
+  - name: "\U0001F1FA\U0001F1F8美国21 | ⬇️ 2.5MB/s"
     network: ws
     port: 80
     server: 45.131.4.228
@@ -860,15 +1098,186 @@ proxies:
       headers:
         Host: gozargah.validbv7996.ir
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare@WangCai2"
     xudp: true
     servername: gozargah.validbv7996.ir
-  - name: "\U0001F1EE\U0001F1F3印度2 | ⬇️ 1.5MB/s"
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FC台湾3 | ⬇️ 1.0MB/s"
+    network: tcp
+    port: 27228
+    server: 45.121.50.116
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 1d4d8fb8-c73c-4474-e301-dcb9570943ca
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F9\U0001F1FC台湾4 | ⬇️ 4.3MB/s"
+    network: ws
+    port: 8443
+    server: 92.243.74.239
+    tls: true
+    type: vless
+    udp: true
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    ws-opts:
+      headers:
+        Host: edccq.aimercc.filegear-sg.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /?ed=2560security=tlsflow=-udp443
+    xudp: true
+    servername: edccq.aimercc.filegear-sg.me
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1E8\U0001F1ED瑞士3 | ⬇️ 2.5MB/s"
+    port: 443
+    server: 152.67.68.116
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
+    network: tcp
+    servername: YAPC-1.afshin.ir
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F8\U0001F1EC新加坡6 | ⬇️ 1.4MB/s"
+    network: tcp
+    port: 3683
+    server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+    xudp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision-udp443-udp443
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E8\U0001F1ED瑞士4 | ⬇️ 2.3MB/s"
+    network: tcp
+    port: 443
+    server: yapc-1.afshin.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
+    xudp: true
+    servername: YAPC-1.afshin.ir
+  - name: "\U0001F1EC\U0001F1E7英国2 | ⬇️ 3.8MB/s"
     network: ws
     port: 80
-    server: 45.131.5.206
+    server: 45.131.5.101
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F300其他5-SE | ⬇️ 1.2MB/s"
+    network: ws
+    port: 443
+    server: 172.66.44.162
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e235d06-f9c9-450c-9a07-a8dc933326f0
+    ws-opts:
+      headers:
+        Host: bestivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /VTRW8C7XmWQUCZd5?ed=2560
+    xudp: true
+    servername: bESTIVpN.paGeS.DEV
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: HlAPZV9g9xmyAVVV002zYFTmiIeg
+    name: "\U0001F1FA\U0001F1F8美国22 | ⬇️ 3.3MB/s"
+    network: grpc
+    port: 443
+    server: 192.3.130.103
+    tls: true
+    type: vless
+    udp: true
+    uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+    xudp: true
+    servername: us10-01.iran2030.ggff.net
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1EE\U0001F1F3印度5 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 236a00ab-f5c0-4dcf-a453-d795c1fd7e1e
+    ws-opts:
+      headers:
+        Host: bestiiiiiiiiiivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /PpNfbWqwdcB6ft8M?ed=2560
+    xudp: true
+    servername: BEStiIIiIIiiiIVpN.pageS.DEv
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8美国23 | ⬇️ 3.3MB/s"
+    port: 30274
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: gy01.hunheiydd.xyz
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: gateway.icloud.com
+  - name: "\U0001F1E9\U0001F1EA德国8 | ⬇️ 2.3MB/s"
+    network: ws
+    port: 80
+    server: 151.101.130.219
+    type: vless
+    udp: true
+    uuid: 9df66056-a898-486a-9c67-6a5ad5ea056e
+    ws-opts:
+      headers:
+        Host: foffmelo.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /olem/ws?ed=1024
+    xudp: true
+  - name: "\U0001F1EE\U0001F1F3印度6 | ⬇️ 3.8MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.248
     type: vless
     udp: true
     uuid: c5293efa-28f8-4a0f-8f34-541078970cee
@@ -877,25 +1286,1206 @@ proxies:
         Host: gozargah.validbv7996.ir
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1F3\U0001F1F1荷兰4 | ⬇️ 1.7MB/s"
+    network: ws
+    port: 80
+    server: 151.101.2.228
+    type: vless
+    udp: true
+    uuid: b2cf777b-8fcf-46f0-8330-a8a2a8eb8a12
+    ws-opts:
+      headers:
+        Host: joinshhproxybedeeeeeee.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: >-
+        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+    xudp: true
+  - name: "\U0001F1EF\U0001F1F5日本5 | ⬇️ 4.8MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.116
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare@WangCai2"
+    xudp: true
+  - client-fingerprint: chrome
+    delay: 1335
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EC新加坡7 | ⬇️ 1.3MB/s"
+    network: tcp
+    port: 56127
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: agaungzhou01.bumbleshrimp.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.yahoo.com
+  - name: "\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 2086
+    server: 45.131.5.244
+    type: vless
+    udp: true
+    uuid: f366e744-abcd-4b5b-bd5e-2bd97b6443bf
+    ws-opts:
+      headers:
+        Host: >-
+          fva64rbmjfkfznnptk6imz6sihrno35m4csom83admge5tfxniwduyuyt954fdh.ks3om.workers.Dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: >-
+        /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8美国24 | ⬇️ 1.9MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.214
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1FA\U0001F1F8美国25 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.151
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare@WangCai2"
     xudp: true
     servername: gozargah.validbv7996.ir
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F300其他6-RO | ⬇️ 1.2MB/s"
-    port: 17930
+    name: "\U0001F1ED\U0001F1F0香港8 | ⬇️ 5.5MB/s"
+    port: 27631
     reality-opts:
       public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
     server: bsuqian01.dynu.net
-    skip-cert-verify: true
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
     uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
     network: tcp
     servername: www.nvidia.com
-  - name: "\U0001F1EF\U0001F1F5日本7 | ⬇️ 2.2MB/s"
+  - name: "\U0001F1EC\U0001F1E7英国3 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.119
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/56.0.2924.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1E9\U0001F1EA德国9 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 443
+    server: 172.66.44.207
+    tls: true
+    type: vless
+    udp: true
+    uuid: b2211bd9-5eba-4141-b80d-a6c335b2e751
+    ws-opts:
+      headers:
+        Host: besttivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /g3fpXHnYa6VAnTBL?ed=2560
+    xudp: true
+    servername: bESttIvPN.paGEs.Dev
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8美国26 | ⬇️ 2.0MB/s"
+    network: ws
+    port: 80
+    server: 104.21.21.226
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+    ws-opts:
+      headers:
+        Host: 1c.890689.xyz
+      path: /lsUVr8VBxF4ylXngZ
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1E6\U0001F1EA阿拉伯酋长国3 | ⬇️ 2.1MB/s"
+    network: ws
+    port: 443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: ca14ba8d-7f23-4f62-98dd-254afc0bc028
+    ws-opts:
+      headers:
+        Host: powerfulserver.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: /
+    xudp: true
+    servername: powerfulserver.top
+  - cipher: aes-256-cfb
+    country: "\U0001F1F8\U0001F1ECSG"
+    delay: 555
+    name: "\U0001F1F8\U0001F1EC新加坡8 | ⬇️ 7.8MB/s"
+    password: amazonskr05
+    port: 443
+    server: 13.250.5.171
+    type: ss
+  - name: "\U0001F1E9\U0001F1EA德国10 | ⬇️ 2.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.145
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1FA\U0001F1F8美国27 | ⬇️ 2.2MB/s"
+    network: ws
+    port: 80
+    server: 188.114.97.3
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: /SIGrNRCU4ongDlz4
+    servername: goZARGah.validBv7996.ir
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国28 | ⬇️ 3.0MB/s"
+    network: tcp
+    port: 443
+    server: 147135004002.sec20org.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    xudp: true
+    servername: 147135004002.sec20org.com
+  - alpn:
+      - h3h2
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国29 | ⬇️ 4.3MB/s"
+    network: ws
+    port: 8443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+    ws-opts:
+      headers:
+        Host: ZlLgGdEq5.GaGsHoW.BlOg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /
+    xudp: true
+    servername: ZlLgGdEq5.GaGsHoW.BlOg
+  - name: "\U0001F1F9\U0001F1FC台湾5 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 2052
+    server: 104.26.13.228
+    type: vless
+    udp: true
+    uuid: 282533b1-cbf1-40a6-b399-a1116163fcc5
+    ws-opts:
+      headers:
+        Host: throbbing-haze-ac69.guoronghuang180.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8美国30 | ⬇️ 6.5MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.210
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1EC\U0001F1E7英国4 | ⬇️ 2.2MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.99
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/60.0.3112.116 Mobile Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+  - name: "\U0001F1F8\U0001F1EC新加坡9 | ⬇️ 3.2MB/s"
+    network: ws
+    port: 80
+    server: 170.114.46.6
+    type: vless
+    udp: true
+    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+    ws-opts:
+      headers:
+        Host: free.pranithsandaruwan.shop
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1EF\U0001F1F5日本6 | ⬇️ 2.0MB/s"
+    network: ws
+    port: 2052
+    server: 104.26.13.101
+    type: vless
+    udp: true
+    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
+    ws-opts:
+      headers:
+        Host: >-
+          Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /Telegram@V2ray_Alpha/?ed=1080
+    xudp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8美国31 | ⬇️ 1.6MB/s"
+    port: 64654
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: zhee01.dynu.net
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: gateway.icloud.com
+  - cipher: aes-256-cfb
+    country: "\U0001F1FA\U0001F1F8US"
+    delay: 443
+    name: "\U0001F1F8\U0001F1EC新加坡10 | ⬇️ 3.8MB/s"
+    password: amazonskr05
+    port: 443
+    server: 47.128.80.62
+    type: ss
+  - name: "\U0001F1FA\U0001F1F8美国32 | ⬇️ 3.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.151
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - name: "\U0001F1E7\U0001F1F7巴西3 | ⬇️ 2.6MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.145
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - name: "\U0001F1EE\U0001F1F3印度7 | ⬇️ 2.3MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.198
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+  - client-fingerprint: chrome
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EA德国11 | ⬇️ 3.7MB/s"
+    network: tcp
+    port: 1001
+    reality-opts:
+      public-key: OedmrV321HapQz6m302_6l3zfGvSG54EoA1iBkvp100
+      short-id: 1de36b4d
+    server: 188.245.235.93
+    tls: true
+    type: vless
+    udp: true
+    uuid: 976d14a2-7464-4882-a3d8-97cc0ab3f350
+    xudp: true
+    servername: refersion.com
+  - name: "\U0001F1FA\U0001F1F8美国33 | ⬇️ 1.4MB/s"
+    network: ws
+    port: 80
+    server: 104.16.46.27
+    type: vless
+    udp: true
+    uuid: 98f9fb8e-ac0c-4a54-80ff-dcce095d9fbd
+    ws-opts:
+      headers:
+        Host: cold-snowflake-4912-ppal03.rarenok889.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: /
+    xudp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1F8\U0001F1EC新加坡11 | ⬇️ 2.3MB/s"
+    password: amazonskr05
+    port: 443
+    server: 13.212.199.43
+    type: ss
+    udp: true
+  - name: "\U0001F1EB\U0001F1EE芬兰1 | ⬇️ 2.9MB/s"
+    network: ws
+    port: 80
+    server: 172.64.152.226
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: /Telegram@sinavm/?ed=2550
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1E9\U0001F1EA德国12 | ⬇️ 2.7MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.113
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: gozargah.validbv7996.ir
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8美国34 | ⬇️ 8.1MB/s"
+    port: 57926
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: beiyong.dynuddns.net
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: gateway.icloud.com
+  - name: "\U0001F1EB\U0001F1EE芬兰2 | ⬇️ 2.5MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.248
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: /flow
+    servername: gozargah.validbv7996.ir
+  - cipher: aes-256-gcm
+    country: "\U0001F1E9\U0001F1EADE"
+    delay: 1147
+    name: "\U0001F1F8\U0001F1EC新加坡12 | ⬇️ 3.1MB/s"
+    password: sgg7vReHnfEtUtAsWFPeeFOSJ6Q3d9owYfCQSwQMPnk=
+    port: 28187
+    server: 45.80.181.77
+    type: ss
+  - name: "\U0001F300其他6-SE | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 104.21.93.95
+    type: vless
+    udp: true
+    uuid: 033a4982-a8c7-4bfb-9481-5a8a1c62cfd6
+    ws-opts:
+      headers:
+        Host: azadnet.b0b723a182.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: /iDE2j5JJnqTGPjmS?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8美国35 | ⬇️ 3.6MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.151
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5日本7 | ⬇️ 1.5MB/s"
+    port: 25768
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: bsuqian01.dynu.net
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+  - name: "\U0001F1F9\U0001F1FC台湾6 | ⬇️ 1.8MB/s"
+    network: ws
+    port: 2082
+    server: 172.67.202.6
+    type: vless
+    udp: true
+    uuid: 2737560d-1867-47fa-aa80-351c36d771c7
+    ws-opts:
+      headers:
+        Host: 0118.kznyoum2.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0香港9 | ⬇️ 8.3MB/s"
+    port: 11555
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: test123.zlqhdns.top
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+  - name: "\U0001F1E6\U0001F1EA阿拉伯酋长国4 | ⬇️ 2.2MB/s"
+    network: ws
+    port: 80
+    server: 188.114.97.3
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /SIGrNRCU4ongDlz4?ed=2560
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0香港10 | ⬇️ 1.6MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.179
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: gozargah.validbv7996.ir
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8美国36 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 443
+    server: 104.22.16.91
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    ws-opts:
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /?ed=2560
+    xudp: true
+    servername: kawaiifreevpn-7ds.pages.dev
+  - name: "\U0001F1FA\U0001F1F8美国37 | ⬇️ 1.6MB/s"
+    network: ws
+    port: 80
+    server: 172.67.208.128
+    type: vless
+    udp: true
+    uuid: 033a4982-a8c7-4bfb-9481-5a8a1c62cfd6
+    ws-opts:
+      headers:
+        Host: azadnet.b0b723a182.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /iDE2j5JJnqTGPjmS?ed=2560
+    xudp: true
+  - name: "\U0001F1E7\U0001F1F7巴西4 | ⬇️ 2.9MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.80
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0香港11 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.116
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2flow"
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1FA\U0001F1F8美国38 | ⬇️ 2.0MB/s"
+    network: ws
+    port: 80
+    server: 172.64.152.226
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /Telegram@sinavm/?ed=2550
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1F0\U0001F1F7韩国3 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 443
+    server: 104.17.252.217
+    tls: true
+    type: vless
+    udp: true
+    uuid: 103104c5-a3f5-4c48-8d8f-a72a56959799
+    ws-opts:
+      headers:
+        Host: zyzzzoao.putata.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /aLeWKcOOsNmDaotw?ed=2560
+    xudp: true
+    servername: ZYzzZoAO.putata.eU.Org
+  - client-fingerprint: chrome
+    name: "\U0001F300其他7-MD | ⬇️ 1.5MB/s"
+    network: ws
+    port: 443
+    server: 185.128.104.12
+    tls: true
+    type: vless
+    udp: true
+    uuid: 30948f96-605e-4396-8d95-e1b903f1fd28
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: /websocket
+    xudp: true
+    servername: eu1.abvpn.ru
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1E6加拿大2 | ⬇️ 4.8MB/s"
+    port: 16011
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: gy01.hunheiydd.xyz
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.amazon.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国39 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 443
+    server: 188.114.96.3
+    tls: true
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      path: /oiBBYyE4WkprI2wD?ed=2560
+    xudp: true
+    servername: GOZArgAH.vaLIDbV7996.IR
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EE\U0001F1F3印度8 | ⬇️ 1.6MB/s"
+    network: ws
+    port: 443
+    server: 172.66.44.118
+    tls: true
+    type: vless
+    udp: true
+    uuid: 236a00ab-f5c0-4dcf-a453-d795c1fd7e1e
+    ws-opts:
+      headers:
+        Host: bestiiiiiiiiiivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /
+    xudp: true
+    servername: BEsTiIIiiIiIIIVpN.PAges.dEv
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8美国40 | ⬇️ 1.7MB/s"
+    port: 38302
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: agaungzhou01.bumbleshrimp.com
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.amazon.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1EE\U0001F1F3印度9 | ⬇️ 4.3MB/s"
+    network: ws
+    port: 443
+    server: 172.66.45.9
+    tls: true
+    type: vless
+    udp: true
+    uuid: 321cc007-bb85-41c9-b686-1f45cf5174e0
+    ws-opts:
+      headers:
+        Host: mistlink-cl9.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /ERlnnsHzyLczPW3c?ed=2560
+    xudp: true
+    servername: MiSTliNK-CL9.pAgEs.Dev
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8美国41 | ⬇️ 2.1MB/s"
+    port: 21578
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: shenzhou05.mysynology.net
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.amazon.com
+  - name: "\U0001F1EE\U0001F1F3印度10 | ⬇️ 3.4MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.206
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1F8\U0001F1EC新加坡13 | ⬇️ 6.5MB/s"
+    network: ws
+    port: 80
+    server: 170.114.45.6
+    type: vless
+    udp: true
+    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+    ws-opts:
+      headers:
+        Host: free.pranithsandaruwan.shop
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1E9\U0001F1EA德国13 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 8080
+    server: 104.19.54.50
+    type: vless
+    udp: true
+    uuid: 755d32fd-cc6e-4038-87a2-1b95a7a7bed0
+    ws-opts:
+      headers:
+        Host: >-
+          VPNCUSTOMIZE.www.webdade.com.www.speedtest.net.irna.ir.ips.ddns-ip.net.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: >-
+        /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
+    xudp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国42 | ⬇️ 3.0MB/s"
+    network: ws
+    port: 8443
+    server: 188.114.96.3
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: /Telegram@V2ray_Alpha/?ed=2560
+    servername: GOzaRGAh.vALidBv7996.Ir
+  - name: "\U0001F1FA\U0001F1F8美国43 | ⬇️ 1.3MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.27
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - name: "\U0001F1EF\U0001F1F5日本8 | ⬇️ 5.4MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.245
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      path: /Telegram@ShadowProxy66
+    xudp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1FA\U0001F1F8美国44 | ⬇️ 1.9MB/s"
+    network: ws
+    port: 443
+    server: 188.114.96.3
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: /oiBBYyE4WkprI2wD?ed=2560
+    servername: GOZArgAH.vaLIDbV7996.IR
+  - name: "\U0001F1FA\U0001F1F8美国45 | ⬇️ 1.4MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.228
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/39.0.2171.95 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EE\U0001F1F3印度11 | ⬇️ 6.8MB/s"
+    network: ws
+    port: 443
+    server: 157.20.172.163
+    tls: true
+    type: vless
+    udp: true
+    uuid: 533e2499-00a2-40ef-b2b2-5f219248c258
+    ws-opts:
+      headers:
+        Host: ByAmirFBI-h2e.salehpersian.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: >-
+        /Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telgram-Amiir_FBI-Telegram-Amiir_FBIger-twix?ed=2560fp=firefox
+    xudp: true
+    servername: h2e.salehpersian.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国46 | ⬇️ 1.1MB/s"
+    network: ws
+    password: 6040a753-e35b-4384-8713-96f3c639b621
+    port: 443
+    server: 104.21.69.41
+    skip-cert-verify: false
+    sni: kju84.890602.XYZ
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      path: /WxWOWO1YA9bs2HOmaeWimvT3
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F8\U0001F1EC新加坡14 | ⬇️ 1.0MB/s"
+    network: tcp
+    port: 3683
+    server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+    xudp: true
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8美国47 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 443
+    server: 104.16.222.128
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    ws-opts:
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+    servername: kawaiifreevpn-7ds.pages.dev
+  - name: "\U0001F1ED\U0001F1F0香港12 | ⬇️ 2.2MB/s"
+    network: ws
+    port: 80
+    server: 104.18.35.30
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /Telegram@JOKERRVPNJoin_Bade_Channel@JOKERRVPN/?ed=2550
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA德国14 | ⬇️ 2.3MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: _VD8PHTrS0iGsbWxwAKWDHY2RKUTsQNhjhQnleD2BW8
+      short-id: 298e20a67e0aea
+    server: 91.107.155.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: f099efbb-5d64-4429-99e0-094467294dbf
+    xudp: true
+    servername: mw9.rogha.ir
+  - name: "\U0001F1EE\U0001F1F3印度12 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.194
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1F7法国1 | ⬇️ 1.0MB/s"
+    port: 40072
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: agaungzhou01.bumbleshrimp.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.yahoo.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1EE\U0001F1F3印度13 | ⬇️ 1.4MB/s"
+    network: ws
+    port: 443
+    server: 172.66.44.118
+    tls: true
+    type: vless
+    udp: true
+    uuid: 236a00ab-f5c0-4dcf-a453-d795c1fd7e1e
+    ws-opts:
+      headers:
+        Host: bestiiiiiiiiiivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /b3Cn0FyDRi3GcfGx?ed=2560
+    xudp: true
+    servername: BESTiIIIIiIiIIVpn.pAgeS.DEv
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8美国48 | ⬇️ 1.4MB/s"
+    network: tcp
+    port: 443
+    server: 15.204.151.84
+    tls: true
+    type: vless
+    udp: true
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    xudp: true
+    servername: 147135004002.sec20org.com
+  - name: "\U0001F1F8\U0001F1EC新加坡15 | ⬇️ 4.7MB/s"
+    network: ws
+    port: 80
+    server: 170.114.46.6
+    type: vless
+    udp: true
+    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+    ws-opts:
+      headers:
+        Host: free.pranithsandaruwan.shop
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.pranithsandaruwan.shop
+  - name: "\U0001F1FA\U0001F1F8美国49 | ⬇️ 4.2MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.254
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国50 | ⬇️ 1.4MB/s"
+    network: ws
+    port: 2083
+    server: 104.26.9.63
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1ccc1dd8-d8ed-4b69-b0c2-27f6282f9755
+    ws-opts:
+      headers:
+        Host: test.bujidao.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /?ed=2048
+    xudp: true
+    servername: test.bujidao.org
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8美国51 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 443
+    server: 104.16.35.218
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    ws-opts:
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: /?ed=2560
+    xudp: true
+    servername: kawaiifreevpn-7ds.pages.dev
+  - name: "\U0001F1EF\U0001F1F5日本9 | ⬇️ 2.1MB/s"
     network: ws
     port: 80
     server: 45.131.4.131
@@ -906,18 +2496,168 @@ proxies:
       headers:
         Host: gozargah.validbv7996.ir
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2flow=-udp443"
     xudp: true
     servername: gozargah.validbv7996.ir
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8美国14 | ⬇️ 3.0MB/s"
-    password: amazonskr05
+  - name: "\U0001F1FA\U0001F1F8美国52 | ⬇️ 2.3MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.113
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国53 | ⬇️ 1.8MB/s"
+    network: ws
+    password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
     port: 443
-    server: 54.69.221.160
+    server: 172.67.159.56
+    skip-cert-verify: false
+    sni: Fgh9JkR5.890617.xYz
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /lWljHWvIMOj85lz42MdhsCLV
+  - name: "\U0001F1EC\U0001F1E7英国5 | ⬇️ 1.7MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.116
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2flow"
+    servername: gozargah.validbv7996.ir
+  - cipher: aes-256-gcm
+    name: "\U0001F1F8\U0001F1EC新加坡16 | ⬇️ 8.1MB/s"
+    password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+    port: 21114
+    server: okanc.node-is.green
     type: ss
     udp: true
+  - name: "\U0001F1F8\U0001F1EC新加坡17 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 80
+    server: 152.42.198.175
+    type: vless
+    udp: true
+    uuid: d8e7d362-9436-4bb4-abe3-f490761e3c20
+    ws-opts:
+      headers:
+        Host: static.whatsapp.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /shalana
+    xudp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1F8\U0001F1EC新加坡18 | ⬇️ 3.4MB/s"
+    password: amazonskr05
+    port: 443
+    server: 47.129.230.32
+    type: ss
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1EE\U0001F1F3印度14 | ⬇️ 1.3MB/s"
+    network: ws
+    port: 443
+    server: bestiiiiiiiiiivpn.pages.dev
+    tls: true
+    type: vless
+    udp: true
+    uuid: 236a00ab-f5c0-4dcf-a453-d795c1fd7e1e
+    ws-opts:
+      headers:
+        Host: bestiiiiiiiiiivpn.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /DCn52y7EZbW8snBf?ed=2560
+    xudp: true
+    servername: BEsTiIIiiIiIIIVpN.PAges.dEv
+  - name: "\U0001F1ED\U0001F1F0香港13 | ⬇️ 3.2MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.27
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: gozargah.validbv7996.ir
+  - cipher: aes-256-cfb
+    country: "\U0001F1FA\U0001F1F8US"
+    delay: 2869
+    name: "\U0001F300其他8-未识别 | ⬇️ 8.8MB/s"
+    password: amazonskr05
+    port: 443
+    server: 47.129.230.32
+    type: ss
+  - name: "\U0001F1E9\U0001F1EA德国15 | ⬇️ 1.5MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.187
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
+    xudp: true
+    servername: gozargah.validbv7996.ir
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国54 | ⬇️ 8.5MB/s"
+    network: ws
+    port: 443
+    server: 104.21.69.41
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
+    ws-opts:
+      headers:
+        Host: us7-01.890602.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /vlHZSdjes8wMzbGFtV
+    xudp: true
+    servername: us7-01.890602.XyZ
 rule-providers:
   private:
     url: >-
